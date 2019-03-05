@@ -1,0 +1,123 @@
+body {
+  font-family: "Sofia", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.6;
+  background-color: #292a30;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.code-text {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.func-keyword {
+  color: #ff60a3;
+}
+
+.struct-keyword {
+  color: #ff60a3;
+}
+
+.print-keyword {
+  color: #67efd2;
+}
+
+.print-text {
+  color: #fd8273;
+}
+
+.welcome-section {
+  width: 80vw;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-text {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.portfolio-section {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-section h1 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.portfolio-section__item {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.portfolio-section__item h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.portfolio-section__item p {
+  margin: 0;
+}
+
+.portfolio-section__item img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* For ipads and other tablets */
+@media only screen and (min-width: 768px) {
+
+  .welcome-section {
+    width: 55vw;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio-section {
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio-section__item img {
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+/* For laptops and desktops */
+@media only screen and (min-width: 1200px) {
+
+  .welcome-section {
+    width: 30vw;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio-section {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portfolio-section__item img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+}
