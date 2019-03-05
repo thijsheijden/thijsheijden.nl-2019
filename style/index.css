@@ -6,9 +6,27 @@ body {
   color: white;
 }
 
+.portfolio-body {
+  background-color: #f2f2f2;
+  color: black;
+  margin-top: 30vh;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  color: #67efd2;
+  transition: 1s;
+}
+
+::selection {
+  background: #67efd2;
+}
+::-moz-selection {
+  background: #67efd2;
 }
 
 .code-text {
@@ -22,6 +40,10 @@ a {
 
 .struct-keyword {
   color: #ff60a3;
+}
+
+.init-keyword {
+  color: #98e263;
 }
 
 .print-keyword {
@@ -96,6 +118,15 @@ a {
     width: 100%;
     margin-top: 60px;
   }
+
+  .portfolio-section__item h3 {
+    font-size: 50px;
+  }
+
+  .portfolio-section__item p {
+    font-size: 25px;
+  }
+
 }
 
 /* For laptops and desktops */
