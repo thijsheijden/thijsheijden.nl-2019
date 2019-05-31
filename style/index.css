@@ -98,6 +98,39 @@ a:hover {
   margin-top: 40px;
 }
 
+/* All the CSS for the individual project pages */
+.project-body {
+  font-weight: lighter;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  background-color: #f2f2f2;
+  color: black;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.project-body h1 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.project-section__left {
+  width: 100%;
+}
+
+.project-section__left img {
+  height: 80px;
+}
+
+.project-section__right {
+  width: 100%;
+}
+
+.project-section__right img {
+  width: 100%;
+}
+
 /* For ipads and other tablets */
 @media only screen and (min-width: 768px) {
 
@@ -127,6 +160,30 @@ a:hover {
     font-size: 25px;
   }
 
+  /* All the CSS for the individual project pages */
+  .project-body {
+    width: 75vw;
+    background-color: #f2f2f2;
+    color: black;
+    margin-top: 15vh;
+  }
+
+  .project-section__left {
+    width: 45%;
+    float: left;
+  }
+
+  .project-section__right {
+    width: 45%;
+    float: right;
+  }
+
+  .project-section__right img {
+    width: 75%;
+    margin: auto;
+    display: block;
+  }
+
 }
 
 /* For laptops and desktops */
@@ -151,4 +208,14 @@ a:hover {
     margin-right: auto;
     margin-top: 60px;
   }
+
+  /* All the CSS for the individual project pages */
+  .project-body {
+    width: 50vw;
+  }
+}
+
+/* only for the app store logo lol */
+@media only screen and (min-width: 1500px) {
+
 }
