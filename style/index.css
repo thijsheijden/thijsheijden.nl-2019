@@ -131,6 +131,11 @@ a:hover {
   width: 100%;
 }
 
+.project-section__right video {
+  width: 100%;
+  height: auto;
+}
+
 /* For ipads and other tablets */
 @media only screen and (min-width: 768px) {
 
@@ -184,6 +189,13 @@ a:hover {
     display: block;
   }
 
+  .project-section__right video {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+
 }
 
 /* For laptops and desktops */
@@ -212,6 +224,13 @@ a:hover {
   /* All the CSS for the individual project pages */
   .project-body {
     width: 50vw;
+  }
+
+  .project-section__right video {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    display: block;
   }
 }
 
